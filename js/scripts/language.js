@@ -44,10 +44,10 @@ $.lang.ko = {
 	39: '2년간 기초적인 컴퓨터아키텍처에대해 공부하였습니다.<p><strong>2008년 2학년 수료</strong></p>',
 	40: '2008년 2학년 수료',
 	41: '연락 주세요',
-	42: '',
-	43: '',
-	44: '',
-	45: '',
+	42: '이름',
+	43: '이메일',
+	44: '메세지',
+	45: '전송',
 	46: '',
 	47: '',
 	48: ''
@@ -96,10 +96,10 @@ $.lang.en = {
 	39: '2년간 기초적인 컴퓨터아키텍처에대해 공부하였습니다.<p><strong>2008년 2학년 수료</strong></p>',
 	40: 'Completion in Fer. 2008',
 	41: 'Contact Me',
-	42: '',
-	43: '',
-	44: '',
-	45: '',
+	42: 'Name',
+	43: 'Email',
+	44: 'Message',
+	45: 'Send',
 	46: '',
 	47: '',
 	48: ''
@@ -148,10 +148,10 @@ $.lang.de = {
 	39: '2년간 기초적인 컴퓨터아키텍처에대해 공부하였습니다.<p><strong>2008년 2학년 수료</strong></p>',
 	40: 'Fertigstellung in Fer. 2008',
 	41: 'Kontaktiere mich',
-	42: '',
-	43: '',
-	44: '',
-	45: '',
+	42: 'Name',
+	43: 'Email',
+	44: 'Message',
+	45: 'Senden',
 	46: '',
 	47: '',
 	48: ''
@@ -177,6 +177,11 @@ function setLanguage(currentLanguage) {
 		var $this = $(this);
 		$this.html($.lang[currentLanguage][$this.data('langnum')]);
 	});
+
+	// placeholder
+	$('#name').attr('placeholder', $.lang[currentLanguage][42]);
+	$('#email').attr('placeholder', $.lang[currentLanguage][43]);
+	$('#message').attr('placeholder', $.lang[currentLanguage][44]);
 
 	// set cookie
 	var past = $.cookie('customLocale');

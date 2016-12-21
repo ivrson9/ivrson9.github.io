@@ -77,6 +77,6 @@ jQuery( document ).ready( function( $ ){
 	);
 
 	// Full background image
-	$( '.fx-backstretch' ).find( '.info' ).backstretch( 'http://ivrson9.github.io/img/3.jpg' ); // Replace backstrech.jpg with your own image
+	$( '.fx-backstretch' ).find( '.info' ).backstretch( 'img/3.jpg' ); // Replace backstrech.jpg with your own image
 
 });
