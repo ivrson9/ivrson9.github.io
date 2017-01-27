@@ -33,7 +33,7 @@ $.lang.ko = {
 	28: '2009년 7월 ~ 2011년 7월',
 	29: '공모전',
 	30: 'Android<span class="bullet">&bull;</span>C# 모션인식<span class="bullet">&bull;</span>홈 오토베이션',
-	31: '학생기간동안 많은 공모전에 지원했었습니다. 그 당시에 Arduino에 관심이 높아 그와 관련된 작업이 많은데, 모션인식(Kinect)을 이용한 리모컨 중고 홈오토베이션(openCV,Android)을 만들어 지원했으며, 대학생을 위한 중고전공서적마켓(Android)개발도 참여했었습니다.',
+	31: '학생기간동안 많은 공모전에 지원했었습니다. 그 당시에 Arduino에 관심이 높아 그와 관련된 작업이 많은데, 모션인식(Kinect)을 이용한 리모컨, 홈오토베이션(openCV,Android)을 만들어 지원했으며, 대학생을 위한 중고전공서적마켓(Android)개발도 참여했었습니다.',
 	32: '2012년 ~ 2014년',
 	33: '숭실대학교',
 	34: '전공: 컴퓨터 공학 <span class="bullet">&bull;</span> 소프트웨어 개발',
@@ -48,7 +48,7 @@ $.lang.ko = {
 	43: '이메일',
 	44: '메세지',
 	45: '전송',
-	46: '',
+	46: 'Motion Recognition Remote Controller : C#(Kinect), Arduino<br>Used Specialty books Market : Android<br>Home Automation : Android, Oracle, Arduino, php, OpenCV',
 	47: '',
 	48: ''
 };
@@ -100,7 +100,7 @@ $.lang.en = {
 	43: 'Email',
 	44: 'Message',
 	45: 'Send',
-	46: '',
+	46: 'Motion Recognition Remote Controller : C#(Kinect), Arduino<br>Used Specialty books Market : Android<br>Home Automation : Android, Oracle, Arduino, php, OpenCV',
 	47: '',
 	48: ''
 };
@@ -152,7 +152,7 @@ $.lang.de = {
 	43: 'Email',
 	44: 'Message',
 	45: 'Senden',
-	46: '',
+	46: 'Motion Recognition Remote Controller : C#(Kinect), Arduino<br>Used Specialty books Market : Android<br>Home Automation : Android, Oracle, Arduino, php, OpenCV',
 	47: '',
 	48: ''
 };

@@ -23,14 +23,15 @@
 				var mapOptions = {
 					center: mapLocation, // 지도에서 가운데로 위치할 위도와 경도(변수)
 					zoom: 11, // 지도 zoom단계
+					scrollwheel : false,
 					mapTypeId: google.maps.MapTypeId.ROADMAP
 				};
 
 				// id: map-canvas, body에 있는 div태그의 id와 같아야 함
 				var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
 
-				var size_x = 40; // 마커로 사용할 이미지의 가로 크기
-				var size_y = 40; // 마커로 사용할 이미지의 세로 크기
+				var size_x = 70; // 마커로 사용할 이미지의 가로 크기
+				var size_y = 70; // 마커로 사용할 이미지의 세로 크기
 
 				// 마커로 사용할 이미지 주소
 				var image = new google.maps.MarkerImage(
@@ -263,15 +264,6 @@
 								<div class="col-1-2 job-period" data-langNum=24><strong data-langNum=22></strong></div>
 							</div>
 						</div>
-
-						<div class="row">
-							<div class="col-2-3 col-wrap centered gallery">
-								<div class="col-1-4 job-project"><a href="http://www.kaiwa-projects.com/assets/img/kaiwa-big-1.jpg" title="Kubed, the Kubernetes cluster manager I built."><img src="http://www.kaiwa-projects.com/assets/img/kaiwa-thumb-1.png" alt="Kubed, the Kubernetes cluster manager I built."></a></div>
-								<div class="col-1-4 job-project"><a href="http://www.kaiwa-projects.com/assets/img/kaiwa-big-2.jpg" title="A custom developed Customer Management System for a driveways company."><img src="http://www.kaiwa-projects.com/assets/img/kaiwa-thumb-2.png" alt="A custom developed Customer Management System for a driveways company."></a></div>
-								<div class="col-1-4 job-project"><a href="http://www.kaiwa-projects.com/assets/img/kaiwa-big-3.jpg" title="Lead Generation Admin System, both front-end and back-end."><img src="http://www.kaiwa-projects.com/assets/img/kaiwa-thumb-3.png" alt="Lead Generation Admin System, both front-end and back-end."></a></div>
-								<div class="col-1-4 job-project"><a href="http://www.kaiwa-projects.com/assets/img/kaiwa-big-4.jpg" title="A small website to learn Korean gaming terms for fun using the Hearthstone cards database."><img src="http://www.kaiwa-projects.com/assets/img/kaiwa-thumb-4.png" alt="A small website to learn Korean gaming terms for fun using the Hearthstone cards database."></a></div>
-							</div>
-						</div>
 					</div>
 
 					<div class="separator"></div>
@@ -294,23 +286,6 @@
 								<div class="col-1-2 job-period" data-langNum=28><strong data-langNum=22></strong></div>
 							</div>
 						</div>
-
-						<div class="row">
-							<div class="col-2-3 col-wrap centered gallery">
-								<div class="col-1-4 job-project">
-									<a href="img/airforce-big1.jpg" title="Trending topics across the web."><img src="http://www.kaiwa-projects.com/assets/img/coosto-thumb-1.png" alt="Trending topics across the web."></a>
-								</div>
-								<div class="col-1-4 job-project">
-									<a href="img/airforce-big2.jpg" title="GPS features with social media."><img src="http://www.kaiwa-projects.com/assets/img/coosto-thumb-2.png" alt="GPS features with social media."></a>
-								</div>
-								<div class="col-1-4 job-project">
-									<a href="img/airforce-big3.jpg" title="Brand comparisons with Coosto."><img src="http://www.kaiwa-projects.com/assets/img/coosto-thumb-3.png" alt="Brand comparisons with Coosto."></a>
-								</div>
-								<div class="col-1-4 job-project">
-									<a href="img/airforce-big4.jpg" title="Monitor everything in a convenient dashboard."><img src="http://www.kaiwa-projects.com/assets/img/coosto-thumb-4.png" alt="Monitor everything in a convenient dashboard."></a>
-								</div>
-							</div>
-						</div>
 					</div>
 
 					<div class="separator"></div>
@@ -322,7 +297,7 @@
 						</div>
 
 						<div class="col-full col-padding">
-							<div class="text-border" data-langNum=31></div>
+							<div class="text-border" data-langNum=46></div>
 						</div>
 
 						<div class="row">
