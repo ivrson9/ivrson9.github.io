@@ -48,7 +48,7 @@ $.lang.ko = {
 	43: '이메일',
 	44: '메세지',
 	45: '전송',
-	46: 'Motion Recognition Remote Controller : C#(Kinect), Arduino<br>Used Specialty books Market : Android<br>Home Automation : Android, Oracle, Arduino, php, OpenCV',
+	46: 'Motion Recognition Remote Controller : C#(Kinect), Arduino<br>Used Specialty books Market : Android, php, Mysql<br>Home Automation : Android, Oracle, Arduino, php, OpenCV',
 	47: '',
 	48: ''
 };
@@ -100,7 +100,7 @@ $.lang.en = {
 	43: 'Email',
 	44: 'Message',
 	45: 'Send',
-	46: 'Motion Recognition Remote Controller : C#(Kinect), Arduino<br>Used Specialty books Market : Android<br>Home Automation : Android, Oracle, Arduino, php, OpenCV',
+	46: 'Motion Recognition Remote Controller : C#(Kinect), Arduino<br>Used Specialty books Market : Android, php, Mysql<br>Home Automation : Android, Oracle, Arduino, php, OpenCV',
 	47: '',
 	48: ''
 };
@@ -152,7 +152,7 @@ $.lang.de = {
 	43: 'Email',
 	44: 'Message',
 	45: 'Senden',
-	46: 'Motion Recognition Remote Controller : C#(Kinect), Arduino<br>Used Specialty books Market : Android<br>Home Automation : Android, Oracle, Arduino, php, OpenCV',
+	46: 'Motion Recognition Remote Controller : C#(Kinect), Arduino<br>Used Specialty books Market : Android, php, Mysql<br>Home Automation : Android, Oracle, Arduino, php, OpenCV',
 	47: '',
 	48: ''
 };
