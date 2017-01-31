@@ -196,6 +196,8 @@ function setLanguage(currentLanguage) {
 $('.language').click(function() {
 	var lang = $(this).data('lang');
 	setLanguage(lang);
+
+	$(this).css('color', '#fff !important');
 	//event.preventDefault(); // href 중지
 });
 

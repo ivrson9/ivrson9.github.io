@@ -91,7 +91,7 @@ a img {
 .section,
 .section-alt {
 	margin: 0 auto;
-	padding: 75px 0;
+	padding: 55px 0;
 	position: relative;
 }
 
@@ -114,7 +114,7 @@ a img {
 	line-height: 1.7em;
 }
 
-.section-content { margin-top: 30px; font-family: Malgun Gothic, sans-serif; font-size: 11pt; }
+.section-content { font-family: Malgun Gothic, sans-serif; font-size: 11pt; }
 
 .section h3,
 .section-alt h3 {
@@ -230,30 +230,13 @@ input.error, textarea.error {
 
 .top-decorations {
 	position: fixed;
-	z-index: 100;
 	top: 0;
 	left: 0;
 	display: block;
 	width: 100%;
-	height: 30px;
+	height: 10px;
 	background: #353636 repeat-x top center;
 }
-
-.language-select {
-	float: right;
-	margin: 5px;
-	padding: 0;
-	list-style-type: none;
-}
-.language-select ul { text-align: center; }
-
-.language-select li {
-	float: left;
-	margin: 0 8px 8px 0;
-	display:inline-block;
-}
-.language-select li a {text-decoration: none; color: #fff;}
-.language-select li i { font-size: 1.0em; }
 
 /* 2.1 Navigation */
 
@@ -484,12 +467,26 @@ input.error, textarea.error {
 .clearfix  { display: block; }
 /* End hide from IE5/Mac */
 
+.language-select {
+	float: left;
+	margin-left: 10px;
+	list-style-type: none;
+}
+
+/*.language-select ul { text-align: center; }*/
+
+.language-select li {
+	padding: 0 2px !important;
+	display:inline-block;
+}
+.language-select li a {text-decoration: none; font-size:0.9em !important;}
 
 /* B. Media Queries */
 @media screen and (max-width: 768px) {
 	.skill,
 	.project { width: 33.33333333333333%; }
 	.job-project { width: 50%; }
+	#intro { height: 50%; }
 }
 
 @media screen and (max-width: 640px) {

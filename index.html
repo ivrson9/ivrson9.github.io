@@ -65,15 +65,8 @@
 		<![endif]-->
 	</head>
 	<body>
-		<div class="top-decorations">
-			<ul class="language-select clearfix">
-				<li style="color:#fff">Language:</li>
-				<li><a class="language" data-lang="ko" href="">Kor</a></li><li style="color:#fff">&bull;</li>
-				<li><a class="language" data-lang="en" href="">Eng</a></li><li style="color:#fff">&bull;</li>
-				<li><a class="language" data-lang="de" href="">Deu</a></li>
-			</ul>
-		</div>
-		<section id="intro" class="fx-backstretch"> <!-- fx-backstretch??? -->
+		<!-- <div class="top-decorations"></div> -->
+		<section id="intro" class="fx-backstretch">
 			<div class="info">
 				<div class="container">
 					<div class="col-2-3 centered">
@@ -88,6 +81,11 @@
 					<li><a href="#experience" data-langNum=5></a></li>
 					<li><a href="#education" data-langNum=6></a></li>
 					<li><a href="#contact" data-langNum=8></a></li>
+					<div class="language-select">
+						<li><a id="ko" class="language" data-lang="ko" href="">Ko</a></li><li>|</li>
+						<li><a id="en" class="language" data-lang="en" href="">En</a></li><li>|</li>
+						<li><a id="de" class="language" data-lang="de" href="">De</a></li>
+					</div>
 				</ul>
 			</nav>
 		</section>
@@ -378,7 +376,7 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-3-4 centered" id="map-canvas" style="width: 90%; height: 400px"></div>
+					<div class="col-3-4 centered" id="map-canvas" style="width: 710px; height: 400px"></div>
 				</div>
 			</div>
 		</section>

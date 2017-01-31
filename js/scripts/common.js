@@ -3,9 +3,9 @@ jQuery( document ).ready( function( $ ){
 	// set language
 	var customLocale = $.cookie('customLocale');
 	setLanguage(customLocale);
+	$('#'+customLocale).css('color', '#fff');
 
 	// Intro size setup
-
 	setupIntro(); // On ready, resize intro
 
 	$( window ).resize( function() { setupIntro(); } ); // On resize
@@ -16,6 +16,7 @@ jQuery( document ).ready( function( $ ){
 		$( '.info' ).find( '.container' ).css( 'top', ( ( infoBox.height() - titleBox.height() - 20 ) / 2) + 'px' );
 	}
 
+	// circle chart
 	$('progress').each(function(){
 		var progress = $(this);
 		var percentage = $(this).attr('value');
@@ -35,7 +36,7 @@ jQuery( document ).ready( function( $ ){
 
 	// Making navigation sticky on scroll
 
-	$( '#nav' ).sticky( { topSpacing:30 } );
+	$( '#nav' ).sticky( { topSpacing:0 } );
 
 	$( '#nav ul' ).onePageNav( { scrollSpeed: 400 } );
 
