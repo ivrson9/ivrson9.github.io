@@ -3,7 +3,6 @@ jQuery( document ).ready( function( $ ){
 	// set language
 	var customLocale = $.cookie('customLocale');
 	setLanguage(customLocale);
-	$('#'+customLocale).css('color', '#fff');
 
 	// Intro size setup
 	setupIntro(); // On ready, resize intro
@@ -80,7 +79,7 @@ jQuery( document ).ready( function( $ ){
 	// Full background image
 	$( '.fx-backstretch' ).find( '.info' ).backstretch( 'img/3.jpg' ); // Replace backstrech.jpg with your own image
 
-	function initialize() {
+	function map_initialize() {
 		var mapLocation = new google.maps.LatLng('52.478869', '13.473638'); // 지도에서 가운데로 위치할 위도와 경도
 		var markLocation = new google.maps.LatLng('52.397397', '13.538037'); // 마커가 위치할 위도와 경도
 
@@ -122,6 +121,6 @@ jQuery( document ).ready( function( $ ){
 				infowindow.open(map,marker);
 		});
 	}
-	google.maps.event.addDomListener(window, 'load', initialize);
+	google.maps.event.addDomListener(window, 'load', map_initialize);
 
 });

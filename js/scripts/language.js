@@ -161,6 +161,7 @@ $('[data-langNum]').each(function() {
 	var $this = $(this);
 	$this.html($.lang.ko[$this.data('langnum')]);
 });
+
 /**
 * setLanguage
 * use $.lang[currentLanguage][languageNumber]
@@ -190,15 +191,17 @@ function setLanguage(currentLanguage) {
 		$.removeCookie('customLocale', {path: '/'});
 		$.cookie('customLocale', currentLanguage, {expires: 365, path: '/'});
 	}
+
+	$("#"+currentLanguage).parent().parent().find('a').css('color', '#000000')
+	$("#"+currentLanguage).css('color', '#fff');
 }
 
 // 언어 변경
 $('.language').click(function() {
-	var lang = $(this).data('lang');
+	var lang = $(this).data('lang')
 	setLanguage(lang);
 
-	$(this).css('color', '#fff !important');
-	//event.preventDefault(); // href 중지
+	event.preventDefault(); // href 중지
 });
 
 /*
