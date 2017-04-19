@@ -506,5 +506,6 @@ input.error, textarea.error {
 
 @media screen and (max-width: 480px) {
 	.section-content { margin-top: 45px; }
+	.section-content h3 { font-size: 1.500em; /* word-break:break-all; */ }
 	#nav ul li { padding: 0 5px; }
 }
