@@ -48,8 +48,8 @@ $.lang.ko = {
 	43: '이메일',
 	44: '메세지',
 	45: '전송',
-	46: 'Motion Recognition Remote Controller : C#(Kinect), Arduino<br>Used Specialty books Market : Android, php, Mysql<br>Home Automation : Android, Oracle, Arduino, php, OpenCV<br>Computer in Caffeine : Android, php, Mysql',
-	47: '',
+	46: '<b>Remote Controller</b>: Changing the motion to signal number, which has response in specific Tv, and sending.(C#[Kinect], Arduino)<br><b>Used Specialty books Market</b>:(Android, php, Mysql)<br><b>Home Automation</b>: When the central server receive the order from smartphone, that send running signal to the suitable Device and that is running. - Gas, Windows, Door[Face Recognition], Light, etc..(Android, Oracle, Arduino, php, OpenCV)<br><b>Computer in Caffeine</b>: Cafe Information App[Berlin](Android, php, Mysql)<br><b>Inter[Face]</b>: Crawl images from google search with Python and show current state on LCD with Arduino and that print<br>(Virtual Art- <a href="http://seaumshim.com/interFace.html" target="_blank">http://seaumshim.com/interFace.html</a>)',
+	47: 'Motion Recognition Remote Controller : C#(Kinect), Arduino<br>Used Specialty books Market : Android, php, Mysql<br>Home Automation : Android, Oracle, Arduino, php, OpenCV<br>Computer in Caffeine : Android, php, Mysql',
 	48: ''
 };
 
@@ -100,8 +100,8 @@ $.lang.en = {
 	43: 'Email',
 	44: 'Message',
 	45: 'Send',
-	46: 'Motion Recognition Remote Controller : C#(Kinect), Arduino<br>Used Specialty books Market : Android, php, Mysql<br>Home Automation : Android, Oracle, Arduino, php, OpenCV<br>Computer in Caffeine : Android, php, Mysql',
-	47: '',
+	46: '<b>Remote Controller</b>: Changing the motion to signal number, which has response in specific Tv, and sending.(C#[Kinect], Arduino)<br><b>Used Specialty books Market</b>:(Android, php, Mysql)<br><b>Home Automation</b>: When the central server receive the order from smartphone, that send running signal to the suitable Device and that is running. - Gas, Windows, Door[Face Recognition], Light, etc..(Android, Oracle, Arduino, php, OpenCV)<br><b>Computer in Caffeine</b>: Cafe Information App[Berlin](Android, php, Mysql)<br><b>Inter[Face]</b>: Crawl images from google search with Python and show current state on LCD with Arduino and that print<br>(Virtual Art- <a href="http://seaumshim.com/interFace.html" target="_blank">http://seaumshim.com/interFace.html</a>)',
+	47: 'Motion Recognition Remote Controller : C#(Kinect), Arduino<br>Used Specialty books Market : Android, php, Mysql<br>Home Automation : Android, Oracle, Arduino, php, OpenCV<br>Computer in Caffeine : Android, php, Mysql',
 	48: ''
 };
 
@@ -152,8 +152,8 @@ $.lang.de = {
 	43: 'Email',
 	44: 'Message',
 	45: 'Senden',
-	46: 'Motion Recognition Remote Controller : C#(Kinect), Arduino<br>Used Specialty books Market : Android, php, Mysql<br>Home Automation : Android, Oracle, Arduino, php, OpenCV<br>Computer in Caffeine : Android, php, Mysql',
-	47: '',
+	46: '<b>Remote Controller</b>: Changing the motion to signal number, which has response in specific Tv, and sending.(C#[Kinect], Arduino)<br><b>Used Specialty books Market</b>:(Android, php, Mysql)<br><b>Home Automation</b>: When the central server receive the order from smartphone, that send running signal to the suitable Device and that is running. - Gas, Windows, Door[Face Recognition], Light, etc..(Android, Oracle, Arduino, php, OpenCV)<br><b>Computer in Caffeine</b>: Cafe Information App[Berlin](Android, php, Mysql)<br><b>Inter[Face]</b>: Crawl images from google search with Python and show current state on LCD with Arduino and that print<br>(Virtual Art- <a href="http://seaumshim.com/interFace.html" target="_blank">http://seaumshim.com/interFace.html</a>)',
+	47: 'Motion Recognition Remote Controller : C#(Kinect), Arduino<br>Used Specialty books Market : Android, php, Mysql<br>Home Automation : Android, Oracle, Arduino, php, OpenCV<br>Computer in Caffeine : Android, php, Mysql',
 	48: ''
 };
 
