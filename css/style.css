@@ -347,7 +347,7 @@ input.error, textarea.error {
 
 .skill { text-align: center; }
 
-.skill-bar { margin-bottom: -10px; }
+.skill-bar { margin-bottom: -10px;}
 .skill-bar progress {
 	background-color: #f3f3f3;
 	border: 0;
@@ -358,7 +358,7 @@ input.error, textarea.error {
 .skill-bar span {
 	top: -18px;
 	left: 2%;
-	width: 200px;
+	width: 50%;
 	display:inline-block;
 	position: relative;
 	font-size: 0.9em;

@@ -23,26 +23,14 @@ jQuery( document ).ready( function( $ ){
 		$(this).parent().append($('<span id=\'percentage\'>'+percentage+'%</span>'));
 		$(this).parent().children('#percentage').css({
 			"top": "-18px",
-			"left": "50%",
-			"width": "20px",
+			"width": "45%",
 			"position": "relative",
 			"display": "inline-block",
 			"font-size": "0.9em",
 			"font-weight": "bolder",
-			"color": "#fff",
+			"color": "#80bfff",
+			"text-align": "right"
 		});
-	});
-
-	// // Making navigation sticky on scroll
-
-	// $( '#nav' ).sticky( { topSpacing:0 } );
-
-	// $( '#aboutme' ).onePageNav( { scrollSpeed: 400 } );
-
-	$(window).scroll(function(){
-		if($(window).scrollTop() < $(window).height()/2) {
-			$('#nav').find('li').removeClass('current');
-		}
 	});
 
 	// Portfolio sorter initialization
@@ -77,7 +65,7 @@ jQuery( document ).ready( function( $ ){
 	);
 
 	// Full background image
-	$( '.backstretch' ).find( '.info' ).backstretch( 'img/3.jpg' ); // Replace backstrech.jpg with your own image
+	$('.backstretch').find('.info').backstretch('img/3.jpg'); // Replace backstrech.jpg with your own image
 
 	function map_initialize() {
 		var mapLocation = new google.maps.LatLng('52.525967', '13.438136'); // 지도에서 가운데로 위치할 위도와 경도
