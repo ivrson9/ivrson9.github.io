@@ -33,11 +33,11 @@ jQuery( document ).ready( function( $ ){
 		});
 	});
 
-	// Making navigation sticky on scroll
+	// // Making navigation sticky on scroll
 
-	$( '#nav' ).sticky( { topSpacing:0 } );
+	// $( '#nav' ).sticky( { topSpacing:0 } );
 
-	$( '#nav ul' ).onePageNav( { scrollSpeed: 400 } );
+	// $( '#aboutme' ).onePageNav( { scrollSpeed: 400 } );
 
 	$(window).scroll(function(){
 		if($(window).scrollTop() < $(window).height()/2) {
@@ -77,15 +77,15 @@ jQuery( document ).ready( function( $ ){
 	);
 
 	// Full background image
-	$( '.fx-backstretch' ).find( '.info' ).backstretch( 'img/3.jpg' ); // Replace backstrech.jpg with your own image
+	$( '.backstretch' ).find( '.info' ).backstretch( 'img/3.jpg' ); // Replace backstrech.jpg with your own image
 
 	function map_initialize() {
-		var mapLocation = new google.maps.LatLng('52.478869', '13.473638'); // 지도에서 가운데로 위치할 위도와 경도
-		var markLocation = new google.maps.LatLng('52.397397', '13.538037'); // 마커가 위치할 위도와 경도
+		var mapLocation = new google.maps.LatLng('52.525967', '13.438136'); // 지도에서 가운데로 위치할 위도와 경도
+		var markLocation = new google.maps.LatLng('52.526143', '13.484337'); // 마커가 위치할 위도와 경도
 
 		var mapOptions = {
 			center: mapLocation, // 지도에서 가운데로 위치할 위도와 경도(변수)
-			zoom: 11, // 지도 zoom단계
+			zoom: 13, // 지도 zoom단계
 			scrollwheel : false,
 			mapTypeId: google.maps.MapTypeId.ROADMAP
 		};
