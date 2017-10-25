@@ -169,7 +169,6 @@ $('[data-langNum]').each(function() {
 function setLanguage(currentLanguage) {
 	if(!currentLanguage){
 		var userLang = navigator.language || navigator.userLanguage;
-		alert(userLang);
 		if(userLang == 'ko' && 'ko-kr') currentLanguage = 'ko';
 		else if(userLang == 'de' && 'de-de') currentLanguage = 'de';
 		else currentLanguage = 'en';
