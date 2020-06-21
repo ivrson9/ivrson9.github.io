@@ -50,7 +50,7 @@ $.lang.ko = {
 	45: '전송',
 	46: '<b>Remote Controller</b>: Changing the motion to signal number, which has response in specific Tv, and sending.(C#[Kinect], Arduino)<br><b>Used Specialty books Market</b>:(Android, php, Mysql)<br><b>Home Automation</b>: When the central server receive the order from smartphone, that send running signal to the suitable Device and that is running. - Gas, Windows, Door[Face Recognition], Light, etc..(Android, Oracle, Arduino, php, OpenCV)<br><b>Computer in Caffeine</b>: Cafe Information App[Berlin](Android, php, Mysql)',
 	47: 'Motion Recognition Remote Controller : C#(Kinect), Arduino<br>Used Specialty books Market : Android, php, Mysql<br>Home Automation : Android, Oracle, Arduino, php, OpenCV<br>Computer in Caffeine : Android, php, Mysql',
-	48: '',
+	48: '연락해 주셔서 감사합니다.',
 	49: '프리랜서',
 	50: '프리랜서 개발자',
 	51: '<strong>위치</strong>: 집',
@@ -111,7 +111,7 @@ $.lang.en = {
 	45: 'Send',
 	46: '<b>Remote Controller</b>: Changing the motion to signal number, which has response in specific Tv, and sending.(C#[Kinect], Arduino)<br><b>Used Specialty books Market</b>:(Android, php, Mysql)<br><b>Home Automation</b>: When the central server receive the order from smartphone, that send running signal to the suitable Device and that is running. - Gas, Windows, Door[Face Recognition], Light, etc..(Android, Oracle, Arduino, php, OpenCV)<br><b>Computer in Caffeine</b>: Cafe Information App[Berlin](Android, php, Mysql)',
 	47: 'Motion Recognition Remote Controller : C#(Kinect), Arduino<br>Used Specialty books Market : Android, php, Mysql<br>Home Automation : Android, Oracle, Arduino, php, OpenCV<br>Computer in Caffeine : Android, php, Mysql',
-	48: '',
+	48: 'Thank you for contacting me.',
 	49: 'Freelance',
 	50: 'Freelance developer',
 	51: '<strong>Location</strong>: House',
@@ -172,7 +172,7 @@ $.lang.de = {
 	45: 'Senden',
 	46: '<b>Remote Controller</b>: Changing the motion to signal number, which has response in specific Tv, and sending.(C#[Kinect], Arduino)<br><b>Used Specialty books Market</b>:(Android, php, Mysql)<br><b>Home Automation</b>: When the central server receive the order from smartphone, that send running signal to the suitable Device and that is running. - Gas, Windows, Door[Face Recognition], Light, etc..(Android, Oracle, Arduino, php, OpenCV)<br><b>Computer in Caffeine</b>: Cafe Information App[Berlin](Android, php, Mysql)',
 	47: 'Motion Recognition Remote Controller : C#(Kinect), Arduino<br>Used Specialty books Market : Android, php, Mysql<br>Home Automation : Android, Oracle, Arduino, php, OpenCV<br>Computer in Caffeine : Android, php, Mysql',
-	48: '',
+	48: 'Vielen Dank für den Kontakt zu mir.',
 	49: 'Freelance',
 	50: 'Freelance developer',
 	51: '<strong>Die Stelle</strong>: zu Hause',
@@ -210,6 +210,9 @@ function setLanguage(currentLanguage) {
 	$('#name').attr('placeholder', $.lang[currentLanguage][42]);
 	$('#email').attr('placeholder', $.lang[currentLanguage][43]);
 	$('#message').attr('placeholder', $.lang[currentLanguage][44]);
+
+	// input value
+	$('#thank_you').attr('value', $.lang[currentLanguage][48]);
 
 	// set cookie
 	var past = $.cookie('customLocale');
