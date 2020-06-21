@@ -68,12 +68,12 @@ jQuery( document ).ready( function( $ ){
 	$('.backstretch').find('.info').backstretch('img/3.jpg'); // Replace backstrech.jpg with your own image
 
 	function map_initialize() {
-		var mapLocation = new google.maps.LatLng('52.525967', '13.438136'); // 지도에서 가운데로 위치할 위도와 경도
-		var markLocation = new google.maps.LatLng('52.526143', '13.484337'); // 마커가 위치할 위도와 경도
+		var mapLocation = new google.maps.LatLng('35.547543', '129.300509'); // 지도에서 가운데로 위치할 위도와 경도
+		var markLocation = new google.maps.LatLng('35.542704', '129.344871'); // 마커가 위치할 위도와 경도
 
 		var mapOptions = {
 			center: mapLocation, // 지도에서 가운데로 위치할 위도와 경도(변수)
-			zoom: 13, // 지도 zoom단계
+			zoom: 12, // 지도 zoom단계
 			scrollwheel : false,
 			mapTypeId: google.maps.MapTypeId.ROADMAP
 		};
