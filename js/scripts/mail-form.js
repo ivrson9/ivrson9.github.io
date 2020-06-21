@@ -27,7 +27,7 @@ $(document).ready(function()
 			
 			$.ajax({
 				type: "POST",
-				url: "http://ivrson9.github.io/email.php",
+				url: "email.php",
 				data: { name: name, email: email, message: message },
 				success: function(result)
 				{
